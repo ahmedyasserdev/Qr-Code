@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  width: 28rem;
+  height: 42rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  text-align: center;
+}
+.card .content {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+}
+.card .content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-wrap: balance;
+  color: hsl(218, 44%, 22%);
+  line-height: 1.5;
+}
+.card .content p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.card img {
+  width: 25rem;
+  height: 25rem;
+  margin: 1rem auto;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
